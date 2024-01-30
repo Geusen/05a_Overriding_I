@@ -6,6 +6,7 @@ public class App {
      
        Child child =new Child();
        output(child.sayHello());
+       output(child.sayHello("Hi"));
        }
 
     private static void output(String outputStr) {
